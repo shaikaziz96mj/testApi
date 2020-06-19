@@ -4,7 +4,7 @@ import org.bankapp.exceptions.InsufficientBalanceException;
 import org.bankapp.exceptions.InvalidAmountException;
 import org.bankapp.service.BankService;
 
-public class HDFCBankServiceImpl implements BankService {
+public final class HDFCBankServiceImpl implements BankService {
 
 	private double balance;
 	
